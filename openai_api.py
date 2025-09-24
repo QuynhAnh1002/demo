@@ -7,6 +7,8 @@ from dotenv import load_dotenv
 # Tải API key từ file .env
 load_dotenv()
 
+GPT_API_KEY = os.getenv('GPT_API_KEY')
+
 # Khởi tạo client OpenAI
 # Thư viện sẽ tự động tìm key trong biến môi trường OPENAI_API_KEY
 try:

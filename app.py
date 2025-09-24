@@ -8,7 +8,7 @@ import io
 #hello ive switched to branch tlam01
 
 
-from utils_frontend.openai_api import ask_question 
+# from utils_frontend.openai_api import ask_question 
 
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
